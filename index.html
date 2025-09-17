@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dano| Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Ocean John</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">Hello, I'm</p>
+                <h1>OCEAN JOHN PAZ</h1>
+                <p class="tagline">A front-end developer and graphic designer creating functional and beautiful digital experiences.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="professional-headshot.png" alt="Ocean John's professional profile picture" class="profile-img">
+            </div>
+        </section>
+
+        <section id="about" class="about fade-in-on-scroll">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <p>I’m a creative professional with a background in graphic design and a growing skill set in front-end development. With two years of experience, I specialize in transforming ideas into functional, aesthetically pleasing digital products. My work focuses on creating responsive, user-friendly interfaces. I also possess a strong technical foundation, including hands-on experience with networking concepts and command-line interfaces, which allows me to approach problem-solving with a well-rounded perspective. My passion lies in blending design, development, and technical precision to build digital experiences that are both reliable and beautiful.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-title"> 
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in-on-scroll">
+                    <img src="login.png" alt="MovieHub project thumbnail">
+                    <div class="project-info">
+                        <h3>MovieHub</h3>
+                        <p>A MERN-based movie review application that enables users to browse films, post reviews, and rate their favorites. The platform features a clean, responsive front-end and a secure, dynamic back-end for seamless interaction.</p>
+                        <a href="https://moviecomment.netlify.app/" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-on-scroll">
+                    <img src="layout.jpg" alt="Recognition graphic design thumbnail">
+                    <div class="project-info">
+                        <h3>Recognition Layout</h3>
+                        <p>A professional recognition graphic featuring a rich red backdrop and elegant gold laurel frames to honor awardees. This design balances prestige and clarity, making each honoree stand out.</p>
+                        <a href="https://www.canva.com/design/DAGTQOCeYtI/NaqYNg7-1mGBOr1ZOdEciw/edit" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-title"> 
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-list">
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-sass"></i>
+                    <span>SASS</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="skill-item fade-in-on-scroll">
+                    <i class="fab fa-docker"></i>
+                    <span>Docker</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact fade-in-on-scroll">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/your-username" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/your-username" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 Ocean John. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
